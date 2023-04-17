@@ -3,7 +3,7 @@
 1. Define:
 
 	(a) Subgraph
-		É grafo G pode ser chamado de subgrafo G¹ quando ele tem um subconjunto de vertices e arestas de G
+		Um grafo G pode ser chamado de subgrafo G¹ quando ele tem um subconjunto de vertices e arestas de G.
 	(b) Bipartite graph.
 		Grafos que podem ser dividiods em dois conjuntos disjuntos, por exemplo conjunto A e conjunto B, da maneira que cada aresta conecte um nó do conjunto A 		a um nó no conjunto B.
 	(c) Hamiltonian graph
