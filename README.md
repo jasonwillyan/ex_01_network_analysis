@@ -60,9 +60,13 @@ tem matrizes de adjacência com as mesmas propriedades.
 	(f) Represent the digraph using adjacency matrix representation.
 
 7. Draw the undirected and directed versions of the graph G(V, E), where V = {1, 2, 3, 4, 5, 6} and E = {(2, 5), (6, 1), (5, 3), (2, 3)}.
-
+[Grafo](https://colab.research.google.com/drive/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq#scrollTo=L9dBDP-4NhYN)
 8. How many edges does a graph have 3 vertices of degree 3 and one vertex of degree 5?
-
+```
+Isso significa que temos 3 vertices com 3 aresta cada e 1 vertice com 5 arestas.
+3 * 3 = 9
+9 + 5 = 14 (total de arestas nesse grafo) 
+```
 9. Mr. A is friend with Mrs. B, but she doesn't like him back. She has a reciprocal friendship with both C and D, but only C considers D a friend. D has also sent friend requests to E, F, G, and H but, so far, only G replied. G also has a reciprocal relationship with A. Draw the corresponding directed graph.
 
 10. Draw the graph from the previous exercise as undirected and weighted, with the weight being 2 if the connection is reciprocal, 1 otherwise.
