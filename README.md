@@ -1,24 +1,39 @@
-# exercise_01_network_analysis
+# Exercício Network Analysis
 
-1. Define:
+### 1. Definições:
+(a) Subgrafo <br>
+```
+Um grafo G pode ser chamado de subgrafo G¹ quando ele tem um subconjunto de vértices e arestas de G.
+```
+(b) Grafo Bipartido <br>
+ ```
+Grafos bipartidos são aqueles que podem ser divididos em dois conjuntos disjuntos, por exemplo, conjunto A e conjunto B,
+de tal forma que cada aresta conecte um nó do conjunto A a um nó do conjunto B.
+```
+(c) Grafo Hamiltoniano <br>
+```
+É um grafo que contém o circuito Hamiltoniano, um circuito Hamiltoniano é aquele onde as vértices iniciais são iguais às finais.
+```
+(d) Grafo Euleriano <br>
+```
+É um grafo cujos nós têm uma quantidade par de arestas.
+```
 
-	(a) Subgraph
-		Um grafo G pode ser chamado de subgrafo G¹ quando ele tem um subconjunto de vertices e arestas de G.
-	(b) Bipartite graph.
-		Grafos que podem ser dividiods em dois conjuntos disjuntos, por exemplo conjunto A e conjunto B, da maneira que cada aresta conecte um nó do conjunto A 		a um nó no conjunto B.
-	(c) Hamiltonian graph
-		É um grafo que contém o circuito hamiltoniano, um circuito hamiltoniano é onde as vertices iniciais são iguais as finais.
-	(d) Eulerian graph.
-		É um grafo cujo os nós tem uma quantidade par de arestas.
-		
-2. Describe how a breadth-first search algorithm works.
-	Esse algoritmo inicia a busca pelo no raiz e percorre os nós adjacentes, o algoritimo explorar os nós vizinhos que ainda não visitou e assim por diante até que 	encontre o objetivo.
+### 2. Describe how a breadth-first search algorithm works.
+```Esse algoritmo inicia a busca pelo no raiz e percorre os nós adjacentes, o algoritimo explorar os nós vizinhos
+que ainda não visitou e assim por diante até que encontre o objetivo.
+```
 	
-3. How many edges does a complete graph with n vertices have? What about a complete directed graph with n vertices?
+### 3. How many edges does a complete graph with n vertices have? What about a complete directed graph with n vertices?
+```
+Um grafo completo com n vértices tem n(n-1)/2 arestas em um grafo não direcionado, e n(n-1) arestas em um grafo direcionado.
+```
 
-
-4. What are isomorphic graphs? Draw an example.
-	  
+### 4. What are isomorphic graphs? Draw an example.
+```
+São grafos que contém a mesma estrutura, mesmo grau, mesma quantidade de vertices e arestas, grafos isomorfos
+tem matrizes de adjacência com as mesmas propriedades.
+```
 	
 5. Calculate the degree of the nodes for both node types in the bipartite adjacency matrix from the figure below. Find the isolated node(s).
 
