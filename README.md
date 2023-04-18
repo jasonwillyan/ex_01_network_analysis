@@ -30,10 +30,12 @@ Um grafo completo com n vértices tem n(n-1)/2 arestas em um grafo não direcion
 ```
 
 ### 4. What are isomorphic graphs? Draw an example.
+[isomorphic graphs](https://drive.google.com/file/d/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq/view?usp=sharing)
 ```
 São grafos que contém a mesma estrutura, mesmo grau, mesma quantidade de vertices e arestas, grafos isomorfos
 tem matrizes de adjacência com as mesmas propriedades.
 ```
+
 	
 5. Calculate the degree of the nodes for both node types in the bipartite adjacency matrix from the figure below. Find the isolated node(s).
 
