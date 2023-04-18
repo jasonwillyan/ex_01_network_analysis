@@ -37,7 +37,7 @@ tem matrizes de adjacência com as mesmas propriedades.
 	
 5. Calculate the degree of the nodes for both node types in the bipartite adjacency matrix from the figure below. Find the isolated node(s).
 
-![adjacency matrix](./img/matrix01.png)
+![adjacency matrix](https://raw.githubusercontent.com/terrematte/network_analysis/main/exercises/img/matrix01.png)
 
 6. Given the digraph `G = (V, E)` where `V = {M, N, O, P, Q, R, S}` and 
 
