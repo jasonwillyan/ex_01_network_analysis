@@ -71,4 +71,4 @@ Isso significa que temos 3 vertices com 3 aresta cada e 1 vertice com 5 arestas.
 [Grafo](https://colab.research.google.com/drive/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq#scrollTo=L9dBDP-4NhYN)
 
 ### 10. Draw the graph from the previous exercise as undirected and weighted, with the weight being 2 if the connection is reciprocal, 1 otherwise.
-<a href="https://colab.research.google.com/drive/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq#scrollTo=L9dBDP-4NhYN" onclick="window.open(this.href,'_blank');return false;">Grafo</a>
+<a href="https://colab.research.google.com/drive/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq#scrollTo=L9dBDP-4NhYN" target="_blank" rel="noopener noreferrer">Grafo</a>
