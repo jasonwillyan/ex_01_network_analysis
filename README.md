@@ -36,27 +36,46 @@ São grafos que contém a mesma estrutura, mesmo grau, mesma quantidade de verti
 tem matrizes de adjacência com as mesmas propriedades.
 ```
 
-	
 ### 5. Calculate the degree of the nodes for both node types in the bipartite adjacency matrix from the figure below. Find the isolated node(s).
 ![adjacency matrix](https://raw.githubusercontent.com/terrematte/network_analysis/main/exercises/img/matrix01.png)
 
-### 6. Given the digraph `G = (V, E)` where `V = {M, N, O, P, Q, R, S}` and 
-
-`E ={(M, S), (N, O), (P, R), (N, S), (O, M),
+### 6. Given the digraph _G = (V, E)_ where _V = {M, N, O, P, Q, R, S}_ and 
+_E ={(M, S), (N, O), (P, R), (N, S), (O, M),
 	 (N, Q), (O, M), (P, P), (S, M), (O, N), 
-	 (S, M), (N, R), (P, M), (M, S)}`
+	 (S, M), (N, R), (P, M), (M, S)}_
 
-	(a) Specify, if any, a simple path from vertex M to vertex S.
+#### (a) Specify, if any, a simple path from vertex M to vertex S.
+`M-S`
 
-	(b) Specify, if any, a simple cycle, involving at least 4 nodes.
+#### (b) Specify, if any, a simple cycle, involving at least 4 nodes.
+`S-M-O-N-S`
 
-	(c) Is the digraph connected or not connected?
+#### (c) Is the digraph connected or not connected?
+`Esse grafo é conectado`
 
-	(d) What is the degree of vertices N and R.
+#### (d) What is the degree of vertices N and R.
+`N = 4`<br>
+`R = 2`
 
-	(e) Represent the digraph using adjacency list representation.
+#### (e) Represent the digraph using adjacency list representation.
+`M: S`<br>
+`N: O, Q, S, R`<br>
+`O: M, N`<br>
+`P: R, P, M`<br>
+`Q:`<br>
+`R:`<br>
+`S: M`
 
-	(f) Represent the digraph using adjacency matrix representation.
+#### (f) Represent the digraph using adjacency matrix representation.
+|   | M | N | O | P | Q | R | S |
+|---|---|---|---|---|---|---|---|
+| M | 0 | 0 | 1 | 1 | 0 | 0 | 1 |
+| N | 0 | 0 | 1 | 0 | 1 | 1 | 1 |
+| O | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| P | 1 | 0 | 0 | 1 | 0 | 1 | 0 |
+| Q | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| R | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| S | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ### 7. Draw the undirected and directed versions of the graph G(V, E), where V = {1, 2, 3, 4, 5, 6} and E = {(2, 5), (6, 1), (5, 3), (2, 3)}.
 [Grafo](https://colab.research.google.com/drive/1nbDOmO4mCDUkBeXbv21HdZ893YR7aCLq#scrollTo=L9dBDP-4NhYN)
